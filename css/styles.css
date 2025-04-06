@@ -7,7 +7,7 @@ body {
     line-height: 24px;
     letter-spacing: 2px;  
 }
-.page-title {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -15,12 +15,30 @@ body {
     letter-spacing: 3px;
     text-decoration: none;
     color: #2E2F42;
-
 }
 .page-nav {
     font-weight: 500;
     text-decoration: none;
     color: #2E2F42;
+}
+.page-nav .link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+li {
+    list-style: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
+}
+address .link {
+    color: #434455;
+    text-decoration: none; 
+}
+address .link:hover,
+address .link:focus {
+    color: #404BBF;         
 }
 .section-solutions {
     background-color: #2E2F42;
@@ -33,12 +51,19 @@ body {
     color: #FFFFFF;
     background-color: #2E2F42;
 }
-button {
+.section-solutions button {
     font-weight: 500;
     letter-spacing: 4px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     text-align: center;
+}
+.section-solutions button:hover {
+    color: #404BBF;
+}
+.section-solutions button:active {
+    background-color:  #404BBF;
+    color: #FFFFFF;
 }
 .section-our-team {
     background-color: #F4F4FD;
@@ -50,7 +75,8 @@ button {
     letter-spacing: 2px;
     text-align: center;
 }
-.club-list {
+.section-our-team .club-list li {
+    text-align: center;
     list-style: none;
 }
 .club-list .title {
