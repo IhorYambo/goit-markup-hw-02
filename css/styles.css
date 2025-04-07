@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
     background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -13,19 +12,19 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.page-nav {
+.list-nav {
     letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
     color: #2E2F42;
 }
-.page-nav .link {
+.list-nav .link {
     text-decoration: none;
     color: #2E2F42;
 }
@@ -39,17 +38,16 @@ li {
 .page-address {
     font-style: normal;
 }
-.page-address .list-address {
-    
+.page-address .link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none; 
+    text-decoration: none;
     color: #434455;
 }
-.page-address .list-address:hover,
-.page-address .list-address:focus {
-    color: #404BBF;         
+.page-address .link:hover,
+.page-address .link:focus {
+    color: #404bbf;         
 }
 /* #endregion header */
 /* #region section solutions */
@@ -70,6 +68,7 @@ li {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
+    background-color: #4d5ae5;
     text-align: center;
 }
 .section-solutions button:hover,
@@ -77,6 +76,20 @@ li {
     background-color:  #404BBF;
 }
 /* #endregion section solutions */
+/* #region adventages */
+.club-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.club-list .text-list {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion adventages */
 /* #region our team */
 .section-our-team {
     background-color: #F4F4FD;
@@ -90,29 +103,29 @@ li {
     color: #2e2f42;
     text-align: center;
 }
-.section-our-team .club-list {
+.club-list {
     text-align: center;
     list-style: none;
 }
-.club-list .text-team {
-    letter-spacing: 0.02em;
+.club-list .images-our-team {
+    background-color: #FFFFFF;
 }
-.club-list .title {
+/* #endregion our team */
+.page-portfolio .club-list .title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: #2E2F42;
 }
-
-/* #endregion our team */
+.page-portfolio .club-list .list-
 /* #region footer */
 .page-footer {
-    color: #FFFFFF;
     background-color: #2E2F42;
 }
-.page-footer .page-text {
-    color:#F4F4FD;
+.page-footer .list-text {
+    color: #F4F4FD;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* #endregion footer */
