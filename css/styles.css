@@ -4,7 +4,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em;
+    color: #434455;  
 }
 /* #region header */
 
@@ -21,6 +22,7 @@ body {
 .list-nav {
     letter-spacing: 0.02em;
     font-weight: 500;
+    line-height: 1.5;
     text-decoration: none;
     color: #2E2F42;
 }
@@ -80,10 +82,10 @@ li {
 .club-list .title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2E2F42;
+    color: #434455;
 }
 .club-list .text-list {
     line-height: 1.5;
@@ -103,14 +105,19 @@ li {
     color: #2e2f42;
     text-align: center;
 }
-.club-list {
-    text-align: center;
+.page-list {
     list-style: none;
-}
-.club-list .images-our-team {
     background-color: #FFFFFF;
+
+}
+.section-our-team .page-list .title {
+    line-height: 1.2;
+}
+.section-our-team .page-list .text-list {
+    color: #434455;
 }
 /* #endregion our team */
+/* #region Portfolio */
 .page-portfolio .club-list .title {
     font-weight: 500;
     font-size: 20px;
@@ -118,14 +125,17 @@ li {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.page-portfolio .club-list .list-
+.page-portfolio .club-list .text-list {
+    color: #434455;
+}
+/* #endregion Portfolio */
 /* #region footer */
 .page-footer {
     background-color: #2E2F42;
 }
-.page-footer .list-text {
-    color: #F4F4FD;
+.page-footer .text-list {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 /* #endregion footer */
