@@ -88,21 +88,21 @@ li {
 .sec-team .page-list {
     background-color: #FFFFFF;
 }
-.sec-team .page-list .title {
-    line-height: 1.2;
-}
-/* #endregion our team */
-/* #region Portfolio */
-.sec-portfolio .club-list .title {
+.title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
 }
+/* #endregion our team */
+/* #region Portfolio */
 /* #endregion Portfolio */
 /* #region footer */
 .sec-footer {
     background-color: #2E2F42;
+}
+.logo-web {
+    color: #F4F4FD;
 }
 .sec-footer .text-list {
     color: #F4F4FD;
