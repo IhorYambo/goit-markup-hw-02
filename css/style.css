@@ -14,13 +14,17 @@ li {
 /* #region header */
 .logo {
     font-family: "Raleway", sans-serif;
-    font-family: 700;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+}
+.logo-head {
+    font-weight: 700;
+    color: #2E2F42;
 }
 .page-nav .list-nav .link {
     font-weight: 500;
@@ -31,9 +35,11 @@ li {
 .page-nav .list-nav .link:focus {
     color: #404BBF;
 }
+.page-address {
+    font-style: normal;
+}
 .page-address .link {
     text-decoration: none;
-    font-style: normal;
     color: #434455;
 }
 .page-address .link:hover,
@@ -50,18 +56,22 @@ li {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .sec-solutions .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4d5ae5;
     text-align: center;
+    cursor: pointer;
 }
 .sec-solutions .button:hover,
 .sec-solutions .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /* #endregion section solutions */
 /* #region adventages */
@@ -69,7 +79,7 @@ li {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 /* #endregion adventages */
@@ -81,6 +91,7 @@ li {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
@@ -92,6 +103,7 @@ li {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 /* #endregion our team */
@@ -101,7 +113,8 @@ li {
 .sec-footer {
     background-color: #2E2F42;
 }
-.logo-web {
+.logo-foot {
+    font-weight: 700;
     color: #F4F4FD;
 }
 .sec-footer .text-list {
